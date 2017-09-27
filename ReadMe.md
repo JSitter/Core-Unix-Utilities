@@ -36,21 +36,21 @@ Challenges within each section are meant to be solved in order.
 1.  Set a variable `NAME` equal to your first name, then print its value
     - `export NAME="Justin"`
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
-    -`export FULL_NAME="Justin Sitter"`
+    - `export FULL_NAME="Justin Sitter"`
 1.  Print all environment variables (names and values)
-    -`printenv`
+    - `printenv`
 1.  Make an alias named `hello` that prints `Hello world`
-    -`alias hello="echo 'hello world'"`
+    - `alias hello="echo 'hello world'"`
 1.  Make an alias named `gocode` that navigates to your code directory
-    -`alias gocode="cd ~/code"`
+    - `alias gocode="cd ~/code"`
 1.  Print all aliases (names and values)
-    -`alias'
+    - `alias'
 
 ### Getting Help
 
 1.  Print what options a command accepts, like `bash` or `python`
-    -`bash --help; python --help`
+    - `bash --help; python --help`
 1.  Read the manual for a command, like `echo` or `ls`
-    -`man echo; man ls`
+    - `man echo; man ls`
 1.  Print the file path to a command, like `bash` or `python`
-    -`which bash; which python`
+    - `which bash; which python`
