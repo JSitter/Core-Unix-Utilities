@@ -60,6 +60,7 @@ Challenges within each section are meant to be solved in order.
     - `export FULL_NAME="Justin Sitter"`
 1.  Print all environment variables (names and values)
     - `printenv`
+    - `env`
 1.  Make an alias named `hello` that prints `Hello world`
     - `alias hello="echo 'hello world'"`
 1.  Make an alias named `gocode` that navigates to your code directory
@@ -79,14 +80,21 @@ Challenges within each section are meant to be solved in order.
 ### Files
 
 1.  Navigate to the directory `Animals`
-    -
+    - cd Animals
 1.  Print the contents of the file `Cats.txt`
+    - cat Cats.txt
 1.  Print the contents of both files `Cats.txt` and `Dogs.txt`
+    - cat Cats.txt Dogs.txt
 1.  Count the words in the file `Cats.txt`
+    - wc Cats.txt
 1.  Count the words in all files with the extension `.txt`
+    - wc *.txt
 1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
+    - cp Dogs.txt BabyDogs.txt
 1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
+    - mv BabyDogs.txt Puppies.txt
 1.  Make a new directory named `Shelter` inside `Animals`
+    - mkdir Animals/Shelter
 1.  Move the file `Puppies.txt` into the directory `Shelter`
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
 1.  List the files within the directory `Shelter`
@@ -99,10 +107,15 @@ Challenges within each section are meant to be solved in order.
 ### Permissions
 
 1.  Print out your user name
+    whoami
 1.  List the permissions (and metadata) of all `.txt` files
+    ls -a *.txt
 1.  Give all users write permission on the file `Cats.txt`
+    chmod 777 Cats.txt
 1.  List the permissions (and metadata) of the file `Cats.txt`
+    ls -a Cats.txt
 1.  Change the owner of the file `Cats.txt` to another user
+    chown 
 1.  Now list the permissions (and owner) of the file `Cats.txt`
 1.  Try to change the owner of the file `Cats.txt` back to yourself
 1.  Invoke the super-user to make the previous command succeed
