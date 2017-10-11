@@ -96,8 +96,11 @@ Challenges within each section are meant to be solved in order.
 1.  Make a new directory named `Shelter` inside `Animals`
     - mkdir Animals/Shelter
 1.  Move the file `Puppies.txt` into the directory `Shelter`
+    mv Puppies.txt ./Shelter/Puppies.txt
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
+    cp Cats.txt Shelter/Kittens.txt
 1.  List the files within the directory `Shelter`
+
 1.  Count the words in all `.txt` files inside `Shelter`
 1.  Try to remove the directory `Shelter` (this should fail)
 1.  Remove all `.txt` files inside `Shelter`
